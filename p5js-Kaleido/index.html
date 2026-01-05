@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script> 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+
+<body>
+  <div class="layout">
+    <main class="canvas-area">
+      <!-- p5.js will put the canvas inside this div -->
+      <div id="p5-container"></div>
+    </main>
+
+    <aside class="instructions">
+      <h1>How to use your kaleidoscope simulation</h1>
+      <ol>
+        <li>At start-up you see a default funny face image. The kaleidoscope mirrors are not active</li>
+        <li>Click the mirrors on/off button to start or stop the reflective action</li>
+        <li>To start image rotation, click the "toggle picture rotate" button</li>
+        <li>To start mirror rotation, click the "toggle mirror rotate" button</li>
+        <li>To see the angle between the mirrors, click the "toggle mirror wedge" button</li>
+        <li>Use the sliders to change the amount of reflections and the rotation speed</li>
+        <li>To change the background image, use the menu for one of mine or the "Load Image" button for one of your own.  If one of your own, make sure it is in PNG or JPG format.</li>
+      </ol>
+      <p>What do you observe about the relationship between the mirror wedge angle and the amount of reflections in the kaleidoscope?</p> 
+    </aside>
+  </div>
+
+  <script src="sketch.js"></script> 
+</body>
+
+  
+  <!--
+      <body>
+	<main>
+	</main>
+	<script src="sketch.js"></script>
+      </body>
+  -->
+</html>
