@@ -1,0 +1,64 @@
+body {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+p {
+    text-align: left;
+    font-size: 15px;
+}
+h1 {
+    text-align: left;
+    font-size: 30px;
+}
+h2 {
+    text-align: left;
+    font-size: 27px;
+}
+h3 {
+    text-align: left;
+    font-size: 24px;
+}
+h4 {
+    text-align: left;
+    font-size: 21px;
+}
+h5 {
+    text-align: left;
+    font-size: 18px;
+}
+h6 {
+    text-align: left;
+    font-size: 18px;
+}
+ul {
+    display: block;
+    font-size: 15px;
+}
+ol {
+    display: block;
+    font-size: 15px;
+}
+table, th, td {
+    border: 1px solid;
+    font-size: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+hr {
+  height: 2px; 
+  width: 800px
+}    
+details[open] {
+    background: #ffffe6;
+}
+summary::marker {
+    color: #e162bf;
+    font-size: 1.2em; }
+/* Add class="center" to img when use this */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 35%; */
+}
